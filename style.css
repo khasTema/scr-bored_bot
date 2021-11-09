@@ -47,8 +47,7 @@ h4{
 }
 
 button{
-    width: 150px;
-    height: 150px;
+    padding: 2em 1em;
     border-radius: 50%;
     border: 3px solid var(--white);
     background: linear-gradient(to right, #ff0400, #e35d5b);
