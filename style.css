@@ -1,0 +1,74 @@
+/* font-family: 'Merienda', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root{
+    --white: rgb(255,255,255, 0.9);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-size: 16px;
+}
+
+.main-container{
+    width: 94%;
+    max-width: 375px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #673ab7, #512da8);
+}
+
+h1,
+h4{
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+}
+
+h1{
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+}
+
+h4{
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-bottom: 4em;
+}
+
+button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--white);
+    background: linear-gradient(to right, #ff0400, #e35d5b);
+    color: var(--white);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    cursor: pointer; 
+    margin-bottom: 1em;
+}
+
+p{
+    text-align: center;
+    width: 80%;
+    color: var(--white);
+    font-family: 'Merienda', cursive;
+    font-size: 1.5rem;
+}
+
+
+.yes{
+    background: linear-gradient(to right, #7b4397, #dc2430);
+}
